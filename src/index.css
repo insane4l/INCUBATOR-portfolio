@@ -11,3 +11,115 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+}
+
+ul,
+li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	font-size: inherit;
+}
+
+p {
+	margin: 0;
+}
+
+button,
+input,
+textarea {
+	border: none;
+	outline: none;
+	font-family: "Open Sans", sans-serif;
+}
+
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+a:focus-visible {
+		outline: 2px solid rgba(55, 129, 255, 0.6);
+		border-radius: 4px;
+}
+
+/* user agent stylesheet bgColor & color autofill disable */
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+	transition: background-color 600000s 0s, color 600000s 0s;
+}
+
+button {
+	background-color: transparent;
+	cursor: pointer;
+}
+
+
+.container {
+	position: relative;
+  	margin: 0 15%;
+}
+@media screen and (max-width: 876px) {
+    .container {
+        margin: 0 6%;
+    }
+}
+
+.section {
+	padding: 80px 0 40px 0;
+}
+
+.section-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+
+.btn {
+	padding: 8px 20px;
+	color: red;
+	border: 1px solid red;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.btn:hover {
+	color: #fff;
+	background-color: red;
+}
+
+.btn_filled {
+	color: #fff;
+	background-color: red;
+	border: 1px solid transparent;
+}
+.btn_filled:hover {
+	color: red;
+	border: 1px solid red;
+	background-color: transparent;
+}

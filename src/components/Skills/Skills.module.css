@@ -1,0 +1,45 @@
+.skills {
+
+}
+
+.skills_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.skill_card {
+    width: 300px;
+    min-height: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+.skill_card_image {
+    display: inline-block;
+    width: 78px;
+    height: 78px;
+    margin-bottom: 30px;
+}
+.skill_card_image img{
+    width: 100%;
+}
+
+.skill_card_title {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.skill_card_descr {
+
+}
+
+
+
+@media screen and (max-width: 730px) {
+    .skills_list {
+        gap: 6px;
+    }
+}

@@ -1,0 +1,38 @@
+.header {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 0;
+    background-color: rgb(108, 108, 255);
+}
+
+.header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header ul {
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.header a {
+    color: #fff;
+    font-weight: 700;
+}
+
+
+@media screen and (max-width: 678px) {
+    .header nav {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 444px) {
+    .header ul {
+        gap: 10px;
+    }
+}
