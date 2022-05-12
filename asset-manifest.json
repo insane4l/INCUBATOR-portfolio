@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/INCUBATOR-portfolio/static/css/main.694704d2.css",
+    "main.js": "/INCUBATOR-portfolio/static/js/main.1cb6eb12.js",
+    "static/js/787.d7b99d5a.chunk.js": "/INCUBATOR-portfolio/static/js/787.d7b99d5a.chunk.js",
+    "static/media/mockup_stub.jpg": "/INCUBATOR-portfolio/static/media/mockup_stub.a0ba09375b565373c8ad.jpg",
+    "static/media/sn_mockup.jpg": "/INCUBATOR-portfolio/static/media/sn_mockup.9e947d07c86a52718a2f.jpg",
+    "static/media/react.svg": "/INCUBATOR-portfolio/static/media/react.ae62622598f39552abdcdb023e554c6f.svg",
+    "static/media/redux.svg": "/INCUBATOR-portfolio/static/media/redux.a95675408ae17c456965e2f09376c31a.svg",
+    "static/media/typescript.svg": "/INCUBATOR-portfolio/static/media/typescript.17d5e87eac2c9d1dc722ce1e0b60d5df.svg",
+    "static/media/instagram.svg": "/INCUBATOR-portfolio/static/media/instagram.ecc71a9d52d520460a6adb42381e0c39.svg",
+    "static/media/telegram.svg": "/INCUBATOR-portfolio/static/media/telegram.040a5ae13560a61bbab47e92cbaa0209.svg",
+    "static/media/github.svg": "/INCUBATOR-portfolio/static/media/github.81f93e0a6f16de77acc31c2e05226b97.svg",
+    "index.html": "/INCUBATOR-portfolio/index.html",
+    "static/media/linkedin.svg": "/INCUBATOR-portfolio/static/media/linkedin.7431d2a866b7810abacb12ef58228793.svg",
+    "main.694704d2.css.map": "/INCUBATOR-portfolio/static/css/main.694704d2.css.map",
+    "main.1cb6eb12.js.map": "/INCUBATOR-portfolio/static/js/main.1cb6eb12.js.map",
+    "787.d7b99d5a.chunk.js.map": "/INCUBATOR-portfolio/static/js/787.d7b99d5a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.694704d2.css",
+    "static/js/main.1cb6eb12.js"
+  ]
+}
